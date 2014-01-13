@@ -1,0 +1,27 @@
+Todoodle
+========
+
+Todoodle is a thoughts-taking application which provides the user with an
+intelligent rich-text editor augmented by a couple of convenience functions.
+
+To compile Todoodle you need Qt 4. Use the following commands:
+
+  qmake
+  make
+  make install  (you probably need to be root to execute this command)
+  
+Todoodle was tested under Linux and Windows and should work out of the box on
+both systems. As it doesn't has any special dependencies and uses the standard
+Qt build system it should also compile under MacOS. This wasn't tested, though.
+
+Class documentation can be generated with Doxygen. Simply run the doxygen
+command in the main directory and the documentation will be generated in HTML
+format in the html sub directory.
+
+User documentation can be found in the manual subdirectory. When starting
+Todoodle for the first time it is shown by default. You can also read it by
+starting Todoodle with the manual directory name as command line argument.
+
+Todoodle is released under the GPL.
+
+The author of Todoodle is Cornelius Schumacher <schumacher@kde.org>

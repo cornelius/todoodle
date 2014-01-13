@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE todoodle SYSTEM "todoodle.dtd">
+<todoodle version="1">
+<block lastmodified="2007-05-29T23:50:41" titlestyle="title">
+  <fragment bold="true" fontsize="15">Welcome!</fragment>
+</block>
+<block lastmodified="2007-05-29T23:52:23">
+  <fragment>Welcome to Todoodle, the smart place to put down your thoughts, reminders, notes and more.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:53:04">
+  <fragment>Read the </fragment>
+  <fragment link="todoodle:Manual">Manual</fragment>
+  <fragment> for more detailed information about what Todoodle can do or simply start and try out what's there.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:54:03">
+</block>
+<block lastmodified="2007-05-29T23:54:03">
+  <fragment italic="true">Have a lot of fun!</fragment>
+</block>
+<block lastmodified="2007-05-29T23:54:03">
+</block>
+</todoodle>

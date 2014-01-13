@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE todoodle SYSTEM "todoodle.dtd">
+<todoodle version="1">
+<block lastmodified="2007-05-29T23:41:11" titlestyle="title">
+  <fragment bold="true" fontsize="15">Todoodle Manual</fragment>
+</block>
+<block lastmodified="2007-05-29T23:07:01" titlestyle="title">
+  <fragment>Todoodle provides an easy way to capture thoughts. It behaves like paper which has a tiny bit of intelligence. So you can type your thoughts, reminders, plans, notes and much more and Todoodle will try to make sense of some of what you are typing, do magic formatting, provide hyperlinks and give you the tools to easily manipulate your texts.</fragment>
+</block>
+<block>
+</block>
+<block lastmodified="2007-05-29T23:07:15" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">Concepts</fragment>
+</block>
+<block lastmodified="2007-05-29T23:13:47">
+  <fragment>The basic concept of Todoodle is the </fragment>
+  <fragment italic="true">topic</fragment>
+  <fragment>. Each topic is a small document which has a name and associated text. The text is richly formatted and can contain headers, lists, hyperlinks, bold and italic words, and some special elemens like a todo checkmark.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:13:00">
+  <fragment>Each topic is usually displayed in a separate window. Typing the name of a topic automatically creates a hyperlink to the topic. Clicking on a topic hyperlink opens the corresponding topic window. This way a net of topic documents is created.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:31:15">
+</block>
+<block lastmodified="2007-05-29T23:13:13" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">Basic Editing</fragment>
+</block>
+<block lastmodified="2007-05-29T23:21:43">
+  <fragment>The editor behaves like a standard rich text editor. By selecting an action from the Format menu or using the corresponding keyboard shortcut the formatting can be changed. Two levels of headers, bold and italic are available.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:26:27" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">Lists</fragment>
+</block>
+<block lastmodified="2007-05-29T23:23:50">
+  <fragment>Lists are created by typing a '-' at the beginning of a line. The list is automatically continued until the list item marker is deleted. Lists items can be moved by pressing ctrl and an arrow. Left and right change the nesting level. Up and down move an item around in the list</fragment>
+</block>
+<block lastmodified="2007-05-29T23:24:07" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">Hyperlinks</fragment>
+</block>
+<block lastmodified="2007-05-29T23:25:59">
+  <fragment>Web and email addresses and names of topics are automatically turned into hyperlinks. By clicking on the link the corresponding action is executed, opening the web page, an email composer or navigating to another topic.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:26:15" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">Managing Topics</fragment>
+</block>
+<block lastmodified="2007-05-29T23:28:17">
+  <fragment>A new topic is created by selecting a text representing the name of the new topic and selecting the </fragment>
+  <fragment italic="true">Link</fragment>
+  <fragment> action from the </fragment>
+  <fragment italic="true">topic</fragment>
+  <fragment> menu. Once the topic exists, occurrences of the topic name are automatically turned into hyperlinks.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:28:54">
+  <fragment>A topic can also be created by selecting a block of text and extracting this to a new topic by selecting the </fragment>
+  <fragment italic="true">Extract Topic</fragment>
+  <fragment> action.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:30:24">
+  <fragment>Topics can also be folded back into the text of another topic by positioning the cursor on a link to a topic and selecting the </fragment>
+  <fragment italic="true">Inline Topic</fragment>
+  <fragment> action. The hyperlink is then replaced by the text of the linked topic.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:30:56">
+  <fragment>To get an overview of all topics you can select the topic map or topic list from the </fragment>
+  <fragment italic="true">topic</fragment>
+  <fragment> menu.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:31:24" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">Scratch Pad</fragment>
+</block>
+<block lastmodified="2007-05-29T23:32:40">
+  <fragment>Each topic can have a scratch pad, a simple sketching area, where diagrams or pictures can be drawn. Activate the scratch pad by selecting the </fragment>
+  <fragment italic="true">scratch pad </fragment>
+  <fragment>action.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:32:56" titlestyle="subtitle">
+</block>
+<block lastmodified="2007-05-29T23:33:14" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">Storage and Version Control</fragment>
+</block>
+<block lastmodified="2007-05-29T23:34:03">
+  <fragment>All data is automatically saved. By default a directory with the name </fragment>
+  <fragment italic="true">.todoodle</fragment>
+  <fragment> in the home directory of the user is used. Data is stored as XML.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:37:38">
+  <fragment>The storage location can be overridden by passing a directory name as command line argument when starting Todoodle.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:38:57">
+  <fragment>When the storage directory is a checkout from a Subversion repository, Todoodle activates version control and commits all changes to Subversion. This can be used to share data between different computers and also provides a convenient way to backup the data.</fragment>
+</block>
+<block lastmodified="2007-05-29T23:38:57">
+</block>
+<block lastmodified="2007-05-29T23:38:57">
+</block>
+<block lastmodified="2007-05-29T23:39:14" titlestyle="subtitle">
+  <fragment bold="true" fontsize="12">About Todoodle</fragment>
+</block>
+<block lastmodified="2007-05-29T23:40:53">
+  <fragment>Todoodle was written by Cornelius Schumacher </fragment>
+  <fragment link="mailto:&lt;schumacher@kde.org&gt;.">&lt;schumacher@kde.org&gt;.</fragment>
+  <fragment> It is released under the GPL. More information about Todoodle can be found at </fragment>
+  <fragment link="www.lst.de/~cs/todoodle">www.lst.de/~cs/todoodle</fragment>
+</block>
+<block lastmodified="2007-05-29T23:40:53">
+</block>
+</todoodle>
